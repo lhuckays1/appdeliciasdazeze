@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/futura-std-4');
+@import url(../css/padrao.css);
+
+a{
+    text-decoration: none;
+}  
+             
+*{
+    font-family: 'Futura Std', sans-serif; 
+}
+
+p{font-family: 'Futura Std', sans-serif;}
+h1{font-family: 'Futura Std', sans-serif;}
+
+ /* padrão de computador*/
+@media (max-width: 4000px) {   
+
+}
+ /* padrão de tablet*/
+@media (max-width: 768px) {
+
+}
+ /*padrão de celular*/
+@media (max-width: 450px) {
+    /*CABEÇALHO*/
+    header img{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    header .logo{
+        border-radius: 50%;
+    }
+
+    header .whatsapp img{
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+
+    /*DESTAQUES*/
+    .destaques img{
+        border-radius: 50%;
+    }
+
+
+    /*RODAPÉ*/
+    footer h1{
+        font-size: 12px;
+    }
+
+    footer .endereco{
+        margin-left: 20px;
+    }
+    footer .endereco h1{
+        margin-top: 10px;
+    }
+
+    footer .telefone img{
+        width: 12%;
+    }
+    footer .telefone h1{
+        margin-top: 6px;
+    }
+
+}
