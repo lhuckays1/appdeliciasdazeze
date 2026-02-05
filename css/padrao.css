@@ -27,6 +27,13 @@
     flex-wrap: wrap;
 }
 
+.flex-centraliza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Garante que ocupe a largura toda para poder centralizar */
+}
+
 .centraliza{text-align: center;}
 .esquerda{text-align: left;}
 .direita{text-align: right;}
