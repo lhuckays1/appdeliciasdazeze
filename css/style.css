@@ -180,6 +180,7 @@ h1{font-family: 'Montserrat', sans-serif;}
         margin-top: 15px;
         font-size: 14px;
         margin-left: 8px;
+        text-align: justify;
     }
 
     .clientes hr{
@@ -205,5 +206,85 @@ h1{font-family: 'Montserrat', sans-serif;}
     footer{
         padding-bottom: 60px;
         margin-top: 15px;
+    }
+
+    /*GATRONOMIA.HMTL*/
+    .horta{
+        margin-top: 10px;
+    }
+    .horta img{
+        border-radius: 25px;
+    }
+
+    .horta p{
+        text-align: justify;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .horta .foto1{
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    .horta .div1{
+        margin-top: 13px;
+    }
+
+    .horta h1{
+        font-size: 18px;
+    }
+
+    .artesanal{
+        margin-top: 10px;
+    }
+    .artesanal img{
+        border-radius: 25px;
+    }
+
+    .artesanal p{
+        text-align: justify;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .artesanal .foto1{
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    .artesanal .div1{
+        margin-top: 18px;
+        margin-left: 10px;
+    }
+
+    .artesanal h1{
+        font-size: 18px;
+    }
+
+    .tradicao{
+        margin-top: 10px;
+    }
+    .tradicao img{
+        border-radius: 25px;
+    }
+
+    .tradicao p{
+        text-align: justify;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .tradicao .foto1{
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    .tradicao .div1{
+        margin-top: 22px;
+    }
+
+    .tradicao h1{
+        font-size: 18px;
     }
 }
