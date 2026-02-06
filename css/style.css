@@ -287,4 +287,47 @@ h1{font-family: 'Montserrat', sans-serif;}
     .tradicao h1{
         font-size: 18px;
     }
+
+    /*CARDAPIO.HTML*/
+    .carnes .principal{
+        border-radius: 15px;
+        margin-left: 10px;
+        width: 95%;
+    }
+
+    .carnes .principal h1{
+        padding: 8px;
+        margin-top: 8px;
+        font-size: 18px;
+    }
+
+    .carnes .principal img{
+        margin-top: 12px;
+    }
+    
+    .carnes .principal .seta{
+        margin-left: -15px;
+    }
+
+    .recolher{
+        transform: rotate(180deg);
+    }
+
+    .secundario{
+        border-radius: 15px;
+        margin-left: 10px;
+        width: 95%;
+        padding: 8px;
+        margin-top: 10px;
+    }
+
+    .secundario h1{
+        margin-top: 8px;
+        font-size: 16px;
+    }
+
+    .secundario p{
+        font-size: 14px;
+        margin-top: -5px;
+    }
 }
