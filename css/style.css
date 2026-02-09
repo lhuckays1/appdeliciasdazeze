@@ -213,6 +213,10 @@ h1{font-family: 'Montserrat', sans-serif;}
         padding-bottom: 60px;
         margin-top: 15px;
     }
+
+    .rodape{
+        margin-top: 170px;
+    }
     /*######################################################*/
 
     /*gastronomia.html*/
@@ -395,10 +399,59 @@ h1{font-family: 'Montserrat', sans-serif;}
     /*######################################################*/
 
     /*regras.html*/
-    .s1{
-        margin-top: 250px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 350px;
+    .regra{
+        margin-top: 25px;
     }
+    
+    .regras {
+        border: 1px solid #e0d0c0;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .regras section{
+        border-top: 1px solid #eee;
+        align-items: center;
+    }
+
+    .regras section .dir{
+        border-right: 1px solid #eee;
+    }
+
+    .regras .cabecalho{
+        padding: 10px 0;
+    }
+
+    .regras h2{
+        font-size: 15px;
+    }
+
+    .regras h3{
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .faleconosco h1{
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+
+    .faleconosco input{
+        border-radius: 25px;
+        border: 1px solid #e0d0c0;
+        padding: 10px 0 10px 15px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .faleconosco button{
+        padding: 10px 0px 10px 0px;
+        border-radius: 25px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+
 }   
