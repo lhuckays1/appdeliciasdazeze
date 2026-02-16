@@ -396,6 +396,10 @@ h1{font-family: 'Montserrat', sans-serif;}
         border-radius: 15px;
         border: solid 8px #f2e8d5;
     }
+
+    .dica1{
+        padding: 10px 0 10px 0;
+    }
     /*######################################################*/
 
     /*regras.html*/
@@ -452,6 +456,19 @@ h1{font-family: 'Montserrat', sans-serif;}
         font-size: 16px;
         margin-top: 15px;
     }
+    /*######################################################*/
 
+    /*index.html*/
+    /*FINALIZAR PEDIDO*/
+    
+    .fixo2{
+        padding: 10px 5px 10px 5px;
+        align-items: center;
+        height: 40px;
+        position: fixed;
+        z-index: 1000;
+        bottom: 50px;
+        width: 100%;
+    }
 
 }   
